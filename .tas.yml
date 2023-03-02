@@ -5,10 +5,10 @@ postMerge:
     - "specs/*.js"
 postRun: 
   command: 
-    - node --version
+    - "node --version"
 preMerge: 
   pattern: 
     - "specs/*.js"
 preRun: 
   command: 
-    - "npm install"
+    - "npm install selenium-webdriver"
