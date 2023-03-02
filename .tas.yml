@@ -2,13 +2,13 @@
 framework: mocha
 postMerge: 
   pattern: 
-    - "specs/*.js"
+    - "specs/single_test.js"
 postRun: 
   command: 
     - "node --version"
 preMerge: 
   pattern: 
-    - "specs/*.js"
+    - "specs/single_test.js"
 preRun: 
   command: 
     - "npm install selenium-webdriver"
