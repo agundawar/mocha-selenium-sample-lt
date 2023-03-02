@@ -11,4 +11,5 @@ preMerge:
     - "specs/single_test.js"
 preRun: 
   command: 
+    - "npm i"
     - "npm install selenium-webdriver"
