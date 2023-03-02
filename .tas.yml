@@ -5,7 +5,7 @@ postMerge:
     - "specs/*.js"
 postRun: 
   command: 
-    - "npm run single"  
+    - node --version
 preMerge: 
   pattern: 
     - "specs/*.js"
