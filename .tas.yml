@@ -11,4 +11,4 @@ preMerge:
     - "specs/*.js"
 preRun: 
   command: 
-    - "npm ci"
+    - "npm install"
